@@ -1,0 +1,157 @@
+/* Add your styles here */
+/* font styles */
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: #f2f2f2;
+color: #333;
+}
+
+h1, h2 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+margin-top: 30px;
+margin-bottom: 15px;
+}
+
+h1 {
+font-size: 36px;
+text-align: center;
+}
+
+h2 {
+font-size: 24px;
+}
+
+em {
+font-style: italic;
+}
+
+p {
+margin-bottom: 15px;
+text-align: justify;
+}
+
+ul {
+margin-left: 20px;
+}
+
+li {
+margin-bottom: 5px;
+}
+
+a {
+color: #c46f3d;
+text-decoration: none;
+border-bottom: 1px dotted #c46f3d;
+}
+
+a:hover {
+color: #333;
+text-decoration: none;
+border-bottom: 1px solid #333;
+}
+
+/* layout and positioning styles */
+img {
+display: block;
+margin: 0 auto;
+max-width: 100%;
+height: auto;
+}
+
+ol, ul {
+padding-left: 20px;
+}
+
+.recipe-details {
+display: flex;
+justify-content: space-between;
+}
+
+.recipe-details div {
+flex-basis: 50%;
+}
+
+.recipe-details div:first-child {
+margin-right: 20px;
+}
+
+.recipe-details div:last-child {
+margin-left: 20px;
+}
+
+.recipe-details h2 {
+margin-top: 0;
+}
+
+.recipe-details ul {
+margin-top: 5px;
+}
+
+.recipe-details li {
+margin-bottom: 0;
+}
+
+.preparation ol {
+counter-reset: step-counter;
+margin-left: 0;
+}
+
+.preparation li {
+list-style: none;
+position: relative;
+margin-bottom: 15px;
+}
+
+.preparation li:before {
+content: counter(step-counter);
+counter-increment: step-counter;
+background-color: #c46f3d;
+color: #fff;
+font-weight: bold;
+border-radius: 50%;
+width: 24px;
+height: 24px;
+display: inline-block;
+text-align: center;
+line-height: 24px;
+margin-right: 10px;
+}
+
+/* color styles */
+h1 {
+color: #c46f3d;
+}
+
+.recipe-details {
+border-top: 1px solid #c46f3d;
+border-bottom: 1px solid #c46f3d;
+margin: 20px 0;
+padding: 20px 0;
+}
+
+.recipe-details h2 {
+color: #c46f3d;
+}
+
+.recipe-details ul li:before {
+color: #c46f3d;
+}
+
+button {
+background-color: #c46f3d;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #944029;
+}
